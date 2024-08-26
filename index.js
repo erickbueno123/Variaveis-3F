@@ -10,3 +10,28 @@ console.log(anoAtual);
 
 idade = idade + 1;
 console.log(idade);
+
+
+//Agencia de viagens paris, EUA, Dubai, Maldivas, tokyo
+const listaDeDestinos = new Array(
+  "Paris",
+  "EUA",
+  "Dubai", 
+  "Maldivas",
+  "Tokyo"
+);
+
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[3]);
+listaDeDestinos.push("Coronel vivida");
+console.log(listaDeDestinos);
+
+listaDeDestinos.push("Curitiba");
+console.log(listaDeDestinos);
+
+listaDeDestinos.push("São josé dos pinhais");
+console.log(listaDeDestinos);
+
+listaDeDestinos.push("Londrina");
+console.log(listaDeDestinos);
+
