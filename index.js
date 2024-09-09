@@ -15,10 +15,10 @@ console.log(idade);
 //Agencia de viagens paris, EUA, Dubai, Maldivas, tokyo
 const listaDeDestinos = new Array(
   "Paris",
-  "EUA",
-  "Dubai", 
-  "Maldivas",
-  "Tokyo"
+  " EUA",
+  " Dubai", 
+  " Maldivas",
+  " Tokyo"
 );
 
 console.log(listaDeDestinos);
@@ -35,3 +35,12 @@ console.log(listaDeDestinos);
 listaDeDestinos.push("Londrina");
 console.log(listaDeDestinos);
 
+
+const idadeComprador = 17;
+if(idadeComprador >=18) {
+  console.log("comprador maior de idade");
+  console.log("destinos disponíveis: " + listaDeDestinos);
+}else {
+console.log("Não é possivel vender passagem para menores de idade");
+console.log("você é menor de idade");
+}
