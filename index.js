@@ -1,3 +1,7 @@
+const prompt = require('prompt-sync');
+const entrada = prompt();
+
+
 let idade = 17;
 const anoNascimento = 2007;
 let anoAtual = 2024;
@@ -35,9 +39,11 @@ console.log(listaDeDestinos);
 listaDeDestinos.push("Londrina");
 console.log(listaDeDestinos);
 
+var nomeComprador = entrada("Digite seu nome: ");
+var idadeComprador = entrada("Qual sua idade?");
 
-const idadeComprador = 17;
 if(idadeComprador >=18) {
+  console.log("Ola senhor(a) " + nomeComprador);
   console.log("comprador maior de idade");
   console.log("destinos disponíveis: " + listaDeDestinos);
 }else {
