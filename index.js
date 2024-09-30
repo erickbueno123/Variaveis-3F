@@ -39,6 +39,17 @@ console.log(listaDeDestinos);
 listaDeDestinos.push("Londrina");
 console.log(listaDeDestinos);
 
+const logincerto = "erick";
+const senhacerto = "123";
+
+var login = entrada("qual seu login: ");
+var senha = entrada("digite sua senha: ");
+
+while(login != logincerto || senha != senhacerto ){
+  console.log("login ou senha incorretos")
+  login = entrada("qual é seu login? ");
+  senha = entrada("digite é sua senha? ");
+}
 var nomeComprador = entrada("Digite seu nome: ");
 var idadeComprador = entrada("Qual sua idade?");
 
@@ -46,9 +57,7 @@ if(idadeComprador >=18) {
   console.log("Ola senhor(a) " + nomeComprador);
   console.log("comprador maior de idade");
   console.log("destinos disponíveis: " + listaDeDestinos);
-}else {
-console.log("Não é possivel vender passagem para menores de idade");
-console.log("você é menor de idade");
+
   console.log("Escolha seu destino");
   
   var contador = 0;
@@ -60,8 +69,8 @@ console.log("você é menor de idade");
   var destino = entrada("digite o numero que corresponde ao destino selecionado (0-8)");
   console.log(`destino selecionado foi:
   ${listaDeDestinos[destino]}` );
+}else {
+  console.log("ola senhor(a) " + nomeComprador);
+  console.log("nao foi posivel concluir a compra");
+  console.log("voce e menor e idade");
 }
-
-  
-
-
