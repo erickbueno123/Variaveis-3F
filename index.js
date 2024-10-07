@@ -3,11 +3,12 @@ const entrada = prompt();
 
 
 let idade = 17;
-const anoNascimento = 2007;
+const anoNascimento = 2007
+  ;
 let anoAtual = 2024;
-const nomeCompleto = "Erick Daniel Bonora Bueno";
+const nomeCompleto = "Erick Daniel Bonora Bueno,";
 
-console.log("Meu nome é " + nomeCompleto + " nascido no ano de " + anoNascimento + " e no ano atual " + anoAtual + " completo " + idade + " anos");
+console.log("Meu nome é " + nomeCompleto + "nascido no ano de " + anoNascimento + " e no ano atual " + anoAtual + " completei " + idade + " anos");
 
 anoAtual = anoAtual + 1;
 console.log(anoAtual);
@@ -17,6 +18,11 @@ console.log(idade);
 
 
 //Agencia de viagens paris, EUA, Dubai, Maldivas, tokyo
+console.log(" ")
+console.log("----------------------------");
+console.log("<<<<<agencia de viagens>>>>>");
+console.log("----------------------------");
+console.log(" ");
 const listaDeDestinos = new Array(
   "Paris",
   " EUA",
@@ -42,6 +48,11 @@ console.log(listaDeDestinos);
 const logincerto = "erick";
 const senhacerto = "123";
 
+console.log(" ")
+console.log("-------------------------");
+console.log("<<<<<<area de login>>>>>>");
+console.log("-------------------------");
+console.log(" ");
 var login = entrada("qual seu login: ");
 var senha = entrada("digite sua senha: ");
 
